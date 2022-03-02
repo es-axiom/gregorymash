@@ -1,0 +1,44 @@
+@keyframes purplePinkLine {
+  0% {
+    background-color: $hotfox;
+  }
+  50% {
+    background-color: $ambientpurple;
+  }
+  100% {
+    background-color: $hotfox;
+  }
+}
+
+@keyframes purplePinkBorderBox {
+  0% {
+    box-shadow: 4px 8px 0px 0px $hotfox;
+  }
+  50% {
+    box-shadow: 4px 8px 0px 0px $ambientpurple;
+  }
+  100% {
+    box-shadow: 4px 8px 0px 0px $hotfox;
+  }
+}
+
+@keyframes purplePinkLineFaded {
+  0% {
+    box-shadow: 8px 2px 0px rgba($hotfox, 0.2);
+  }
+  50% {
+    box-shadow: 0px -2px 0px rgba($hotfox, 0.2);
+  }
+  100% {
+    box-shadow: 8px 2px 0px rgba($hotfox, 0.2);
+  }
+}
+
+@keyframes titleMotionOnEntry {
+  0% {
+    transform: translate(2.2rem, 0);
+  }
+  100% {
+    transform: translate(2rem, -10px);
+  }
+}
