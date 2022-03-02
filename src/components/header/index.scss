@@ -1,46 +1,15 @@
 @import "../../colors.scss";
 
+@import "../../colors";
+@import "../../animations.scss";
+
 .headercontent {
   width: 100%;
   box-sizing: border-box;
   height: auto;
-  padding: 6rem;
-  border-radius: 8px;
-  box-shadow: 4px 6px 0px 0px #ed5edd;
+  padding: 2rem 0.5rem 1rem 0.5rem;
+  border-radius: 4px;
   color: white;
   position: relative;
-  @media screen and (max-width: 600px) {
-    padding: 2rem;
-  }
-
-  h1 {
-    font-size: 4rem;
-    position: relative;
-    &:after {
-      position: absolute;
-      bottom: -20px;
-      left: 0;
-      content: "";
-      height: 8px;
-      width: 120px;
-      border-radius: 4px;
-      background-color: #ed5edd;
-    }
-  }
-
-  h4 {
-    font-size: 2.2rem;
-    width: 75%;
-  }
-
-  img {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    height: 30%;
-    width: 30%;
-    background: transparent;
-  }
-
-  background: $ambientpurple;
+  animation: purplePinkBorderBox 8s infinite;
 }

@@ -1,16 +1,26 @@
 import "./index.scss";
 import { Disclaimer } from "../../modules";
 
-function NAME() {
+function Footer() {
   return (
     <footer>
       {/* Logo for event */}
 
       <ul>
-        <li>Park link</li>
-        <li>Sign Up</li>
+        <li>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            href="https://www.fayetteville-ar.gov/3552/Gregory-Park"
+          >
+            Gregory Park link
+          </a>
+        </li>
+        <li>
+          <a href="about:blank"> Sign Up</a>
+        </li>
+        {/* TODO: Add document link here or just add content to page */}
         <li>Rules & Guidance</li>
-        <li>Parking</li>
       </ul>
 
       <Disclaimer />
@@ -18,4 +28,4 @@ function NAME() {
   );
 }
 
-export default NAME;
+export default Footer;
