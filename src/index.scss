@@ -1,4 +1,5 @@
 @import "./colors.scss";
+@import "./globals.scss";
 
 body {
   margin: 0;
@@ -15,13 +16,4 @@ body {
   }
   background: $appbg;
   overflow-x: hidden;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
-p {
-  line-height: 1.5;
 }

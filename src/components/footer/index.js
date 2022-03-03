@@ -4,8 +4,6 @@ import { Disclaimer } from "../../modules";
 function Footer() {
   return (
     <footer>
-      {/* Logo for event */}
-
       <ul>
         <li>
           <a

@@ -2,59 +2,50 @@
 @import "../../animations.scss";
 
 .titleSection {
-  h1 {
-    font-size: 144px;
+  .mainTitle {
     position: relative;
     color: $ambientpurple;
-    line-height: 0.92;
-    letter-spacing: -5px;
+    letter-spacing: -15px;
     transform: translateX(2rem);
-    // animation: titleMotionOnEntry 4s linear;
     margin: 0.5rem 0;
+
     &:after {
       position: absolute;
       bottom: -20px;
       left: 0;
       content: "";
       height: 12px;
-      width: 50%;
+      width: 250px;
       border-radius: 4px;
       background-color: $hotfox;
       box-shadow: 4px 2px 0px rgba($hotfox, 0.2);
-      animation: purplePinkLine 10s infinite, purplePinkLineFaded 5s infinite;
-    }
-
-    @media screen and (max-width: 620px) {
-      font-size: 8.5rem;
-      transform: translateX(-4rem);
-    }
-
-    @media screen and (max-width: 400px) {
-      font-size: 8.5rem;
-      transform: translateX(-6rem);
     }
   }
 
-  h4 {
-    font-size: 2.2rem;
-    line-height: 1.4;
-    transform: translateX(-2.5rem);
+  .showUp {
     width: 100%;
-  }
-
-  h4:first-of-type {
     color: $ambientpurple;
     font-size: 4.2rem;
     line-height: 1.2;
     transform: translateX(-2.5rem);
   }
 
-  img {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    height: 30%;
-    width: 30%;
-    background: transparent;
+  h1 {
+    font-size: 144px;
+    line-height: 0.92;
+
+    @media screen and (max-width: 620px) {
+      font-size: 12rem;
+      transform: translateX(-4.5rem);
+    }
+
+    @media screen and (max-width: 400px) {
+      font-size: 10rem;
+      transform: translateX(-4.5rem);
+    }
+  }
+
+  h4 {
+    font-size: 2.2rem;
   }
 }
