@@ -1,12 +1,15 @@
 @keyframes purplePinkLine {
   0% {
     background-color: $hotfox;
+    opacity: 0.7;
   }
   50% {
     background-color: $ambientpurple;
+    opacity: 1;
   }
   100% {
     background-color: $hotfox;
+    opacity: 0.7;
   }
 }
 

@@ -4,6 +4,7 @@ import "./index.scss";
 function EventDetails() {
   return (
     <section className="eventDetails">
+      <h5>3rd Friday, Every Month || Gregory Park</h5>
       <h4>Time to dust off those moves and get rowdy in the woods.</h4>
       <ul>
         <li>
@@ -16,7 +17,8 @@ function EventDetails() {
         <li>
           <h5>Best Tailwind</h5>
           <p>
-            Show your flow through the Tailwind, style out with your own flavor.
+            Find your rhythm and show your flow through the Tailwind, style out
+            with your own flavor.
           </p>
         </li>
         <li>
