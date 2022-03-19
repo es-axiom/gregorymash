@@ -48,4 +48,13 @@
     flex-wrap: nowrap;
     margin: 0.5rem 0;
   }
+
+  img {
+    position: absolute;
+    right: 0;
+    bottom: -50%;
+    height: 100vh;
+    width: auto;
+    opacity: 0.3;
+  }
 }

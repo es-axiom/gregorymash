@@ -3,7 +3,7 @@ import { Title } from "../../modules";
 
 function Header() {
   return (
-    <section class="headercontent">
+    <section className="headercontent">
       <Title />
     </section>
   );
