@@ -3,7 +3,7 @@ import { Lore, EventDetails, Support } from "../../modules";
 
 function main() {
   return (
-    <section class="maincontent">
+    <section className="maincontent">
       <Lore />
       <EventDetails />
       <Support />

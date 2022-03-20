@@ -2,7 +2,7 @@ import { Header, Main, Footer } from "./components";
 
 function App() {
   return (
-    <div class="app">
+    <div className="app">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

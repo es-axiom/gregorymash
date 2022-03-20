@@ -53,8 +53,13 @@
     position: absolute;
     right: 0;
     bottom: -50%;
-    height: 100vh;
+    height: 90vh;
     width: auto;
-    opacity: 0.3;
+    opacity: 0.2;
+
+    @media screen and (max-width: 400px) {
+      bottom: -60vh;
+      right: 20;
+    }
   }
 }
