@@ -7,7 +7,12 @@ function Title() {
       <h1 className="mainTitle">Gregory MASH</h1>
       <h4 className="showUp">Show up,</h4>
       <h4>If you dare.</h4>
-      <img height="500" width="300" alt="" src="/hider.svg" />
+      <img
+        height="500"
+        width="300"
+        alt=""
+        src={process.env.PUBLIC_URL + "/hider.svg"}
+      />
     </section>
   );
 }
