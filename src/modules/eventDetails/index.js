@@ -25,7 +25,8 @@ function EventDetails() {
           <h5>Roundabout</h5>
           <p>
             Head-to-Head racing. Starting at either Blue or Green, go down them
-            both, with a frantic climb up the return trail!
+            both, with a frantic climb up the return trail! The runs will be
+            marked and there is a shared climb, so watch your elbows.
           </p>
         </li>
         <li>
