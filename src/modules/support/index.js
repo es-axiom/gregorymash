@@ -1,16 +1,19 @@
 import React from "react";
 import "./index.scss";
+import { support } from "../../copy";
 
 function Support() {
+  const { title, patrons, thanks } = support;
   return (
     <section className="support">
-      <h4>Our generous help:</h4>
+      <h4>{title}</h4>
+      <ul>
+        {patrons.map((p) => (
+          <li>{p}</li>
+        ))}
+      </ul>
       <p>{/* List out sponsors and donors here as they come */}</p>
-
-      <p>
-        Thank you for sponsoring this repeat event that fosters community and
-        social growth in the Fayetteville mountain biking scene.
-      </p>
+      <p>{thanks}</p>
     </section>
   );
 }
