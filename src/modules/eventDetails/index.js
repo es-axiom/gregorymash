@@ -1,40 +1,20 @@
 import React from "react";
 import "./index.scss";
+import { details } from "../../copy";
 
 function EventDetails() {
+  const { overline, title, events } = details;
   return (
     <section className="eventDetails">
-      <h5>3rd Friday, Every Month || Gregory Park</h5>
-      <h4>Time to dust off those moves and get rowdy in the woods.</h4>
+      <h5>{overline}</h5>
+      <h4>{title}</h4>
       <ul>
-        <li>
-          <h5>Best Trick</h5>
-          <p>
-            Find yourself throwing the best whip over the last jump on Tailwind.
-            Judged more on style than difficulty.
-          </p>
-        </li>
-        <li>
-          <h5>Best Tailwind</h5>
-          <p>
-            Find your rhythm and show your flow through the Tailwind, style out
-            with your own flavor.
-          </p>
-        </li>
-        <li>
-          <h5>Roundabout</h5>
-          <p>
-            Head-to-Head racing. Starting at either Blue or Green, go down them
-            both, with a frantic climb up the return trail! The runs will be
-            marked and there is a shared climb, so watch your elbows.
-          </p>
-        </li>
-        <li>
-          <h5>Choice Is Yours</h5>
-          <p>
-            Head-to-Head racing, with a twist. Choose a lane and face your doom.
-          </p>
-        </li>
+        {events.map(({ name, description }) => (
+          <li>
+            <h5>{name}</h5>
+            <p>{description}</p>
+          </li>
+        ))}
       </ul>
     </section>
   );

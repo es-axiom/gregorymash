@@ -1,0 +1,22 @@
+{
+  "overline": "3rd Friday, Every Month || Gregory Park",
+  "title": "Time to dust off those moves and get rowdy in the woods.",
+  "events": [
+    {
+      "name": "Best Trick",
+      "description": "Find yourself throwing the best whip over the last jump on Tailwind. Judged more on style than difficulty."
+    },
+    {
+      "name": "Best Tailwind",
+      "description": "Find your rhythm and show your flow through the Tailwind, style out with your own flavor."
+    },
+    {
+      "name": "Roundabout",
+      "description": "Head-to-Head racing. Starting at either Blue or Green, go down them both, with a frantic climb up the return trail! The runs will be marked and there is a shared climb, so watch your elbows."
+    },
+    {
+      "name": "Choice Is Yours",
+      "description": " Head-to-Head racing, with a twist. Choose a lane and face your doom."
+    }
+  ]
+}
