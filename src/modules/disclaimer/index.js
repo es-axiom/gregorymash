@@ -5,8 +5,8 @@ function Disclaimer() {
   return (
     <article className="disclaimer">
       <h5>{disclaimer.title}</h5>
-      {disclaimer.description.map((d) => (
-        <p>{d}</p>
+      {disclaimer.description.map((d, i) => (
+        <p key={i}>{d}</p>
       ))}
     </article>
   );
