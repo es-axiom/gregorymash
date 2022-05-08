@@ -10,7 +10,7 @@ function EventDetails() {
       <h4>{title}</h4>
       <ul>
         {events.map(({ name, description }) => (
-          <li>
+          <li key={name}>
             <h5>{name}</h5>
             <p>{description}</p>
           </li>

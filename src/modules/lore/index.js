@@ -6,8 +6,8 @@ function Lore() {
   return (
     <section>
       <h4>{lore.title}</h4>
-      {lore.description.map((l) => (
-        <p>{l}</p>
+      {lore.description.map((l, i) => (
+        <p key={i}>{l}</p>
       ))}
     </section>
   );
