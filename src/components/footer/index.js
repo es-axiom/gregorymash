@@ -15,7 +15,7 @@ function Footer() {
           </a>
         </li>
         <li>
-          <a href="https://forms.gle/9gFYseypV1iAxuab7"> Sign Up</a>
+          <a href="https://forms.gle/gAjU2wPHsFJZ8xWFA"> Sign Up</a>
         </li>
       </ul>
 
